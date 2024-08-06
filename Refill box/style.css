@@ -1,0 +1,126 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+nav {
+    background-color: #000000;
+    border-bottom: 1px solid #333333;
+}
+
+nav .text-gray-700 {
+    color: black;
+}
+
+nav .text-gray-700:hover {
+    color: #ff6600;
+}
+
+nav .bg-blue-600 {
+    background-color: #ff6600;
+}
+
+
+header {
+    background-color: #ff6600;
+}
+
+header .text-white {
+    color: #000000;
+}
+
+
+#about {
+    background-color: #1a1a1a;
+}
+
+#about .text-white {
+    color: #ffffff;
+}
+
+#about .bg-yellow-500 {
+    background-color: #ff6600;
+}
+
+#services {
+    background-color: #000000;
+}
+
+#services .bg-gray-100 {
+    background-color: #333333;
+}
+
+#services .text-gray-600 {
+    color: #cccccc;
+}
+
+#services .text-gray-600:hover {
+    color: #ff6600;
+}
+
+#contact {
+    background-color: #000000;
+}
+
+#why-choose-us {
+    background-color: #ff6600;
+}
+
+#why-choose-us .text-white {
+    color: #000000;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+footer .text-gray-600 {
+    color: #cccccc;
+}
+
+footer .text-gray-600:hover {
+    color: #ff6600;
+}
+
+footer .bg-gray-800 {
+    background-color: #333333;
+}
+
+footer .text-sm {
+    color: #cccccc;
+}
+
+.progress-circle {
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+.circle-bg {
+    fill: none;
+    stroke: #e6e6e6;
+    stroke-width: 10;
+}
+
+.circle {
+    fill: none;
+    stroke: #4a90e2;
+    stroke-width: 10;
+    stroke-dasharray: 283;
+    stroke-dashoffset: 283;
+    transition: stroke-dashoffset 1s;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+}
+
+.progress-text {
+    fill: white;
+    font-size: 18px;
+    text-anchor: middle;
+    font-weight: bold;
+    transform: rotate(90deg);
+    transform-origin: 50% 50%;
+}
