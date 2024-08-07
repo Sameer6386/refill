@@ -16,7 +16,6 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body class="bg-gray-100 font-sans">
-    <!-- Navbar -->
     <nav class="bg-white shadow-md">
       <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
         <div class="relative flex items-center justify-between h-16">
@@ -25,20 +24,7 @@
               id="menu-button"
               class="inline-flex items-center justify-center p-2 text-gray-500 hover:text-gray-700 focus:outline-none"
             >
-              <svg
-                class="w-6 h-6"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M4 6h16M4 12h16m-7 6h7"
-                ></path>
-              </svg>
+              <i class="fas fa-bars w-6 h-6"></i>
             </button>
           </div>
           <div
@@ -67,7 +53,6 @@
               <span>Man Power Solution</span>
               <i class="fas fa-chevron-down"></i>
             </a>
-
             <a href="#contact" class="text-gray-700 hover:text-blue-600"
               >Contact</a
             >
@@ -86,28 +71,17 @@
       >
         <div class="flex justify-end p-4">
           <button id="close-menu" class="text-gray-500">
-            <svg
-              class="w-6 h-6"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M6 18L18 6M6 6l12 12"
-              ></path>
-            </svg>
+            <i class="fas fa-times w-6 h-6"></i>
           </button>
         </div>
         <div class="flex flex-col items-center space-y-4 mt-8">
-          <a href="#features" class="text-gray-700 hover:text-blue-600"
-            >Features</a
+          <a href="#Home" class="text-gray-700 hover:text-blue-600">Home</a>
+          <a href="#about" class="text-gray-700 hover:text-blue-600"
+            >About Us</a
           >
-          <a href="#pricing" class="text-gray-700 hover:text-blue-600"
-            >Pricing</a
+          <a href="#team" class="text-gray-700 hover:text-blue-600">Our Team</a>
+          <a href="#Manpower" class="text-gray-700 hover:text-blue-600"
+            >Man Power Solution</a
           >
           <a href="#contact" class="text-gray-700 hover:text-blue-600"
             >Contact</a
@@ -120,7 +94,6 @@
         </div>
       </div>
     </nav>
-
     <!-- Hero Section -->
     <header class="bg-white text-blue-900 py-20">
       <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 text-center">
@@ -190,17 +163,10 @@
       <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
         <h2 class="text-3xl font-bold mb-10 text-center">Services We Offer</h2>
         <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+          <!-- Placement Services -->
           <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
-            <div class="mb-4">
-              <svg
-                class="w-12 h-12 text-blue-600"
-                fill="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M12 2a10 10 0 100 20 10 10 0 000-20zM11 16.93V7.07a8 8 0 010 9.86z"
-                ></path>
-              </svg>
+            <div class="mb-4 text-blue-600">
+              <i class="fas fa-briefcase fa-3x"></i>
             </div>
             <h3 class="text-xl font-bold mb-2">Placement Services</h3>
             <p class="text-gray-600 mb-4">
@@ -211,87 +177,58 @@
               href="#details"
               class="text-gray-600 hover:underline flex items-center"
               >See Details
-              <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M9 5l7 7-7 7"></path>
-              </svg>
+              <i class="fas fa-chevron-right ml-1"></i>
             </a>
           </div>
+          <!-- HR Services -->
           <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
-            <div class="mb-4">
-              <svg
-                class="w-12 h-12 text-green-600"
-                fill="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M12 2a10 10 0 100 20 10 10 0 000-20zM11 16.93V7.07a8 8 0 010 9.86z"
-                ></path>
-              </svg>
+            <div class="mb-4 text-green-600">
+              <i class="fas fa-user-tie fa-3x"></i>
             </div>
             <h3 class="text-xl font-bold mb-2">HR Services</h3>
             <p class="text-gray-600 mb-4">
-              we are one of the most trusted HR & Placements Companies In
-              Nodia(Delhi NCR),Offering outstanding Human....
+              We are one of the most trusted HR & Placements Companies In Noida
+              (Delhi NCR), Offering outstanding Human....
             </p>
             <a
               href="#details"
               class="text-gray-600 hover:underline flex items-center"
               >See Details
-              <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M9 5l7 7-7 7"></path>
-              </svg>
+              <i class="fas fa-chevron-right ml-1"></i>
             </a>
           </div>
+          <!-- Manpower Recruitment -->
           <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
-            <div class="mb-4">
-              <svg
-                class="w-12 h-12 text-red-600"
-                fill="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M12 2a10 10 0 100 20 10 10 0 000-20zM11 16.93V7.07a8 8 0 010 9.86z"
-                ></path>
-              </svg>
+            <div class="mb-4 text-red-600">
+              <i class="fas fa-users fa-3x"></i>
             </div>
             <h3 class="text-xl font-bold mb-2">Manpower Recruitment</h3>
             <p class="text-gray-600 mb-4">
-              We have cared a niche for ourselves as one of the reputed
-              placement and recuritment companies based in NCR..
+              We have carved a niche for ourselves as one of the reputed
+              placement and recruitment companies based in NCR..
             </p>
             <a
               href="#details"
               class="text-gray-600 hover:underline flex items-center"
               >See Details
-              <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M9 5l7 7-7 7"></path>
-              </svg>
+              <i class="fas fa-chevron-right ml-1"></i>
             </a>
           </div>
+          <!-- Career Consultant -->
           <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
-            <div class="mb-4">
-              <svg
-                class="w-12 h-12 text-600"
-                fill="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M12 2a10 10 0 100 20 10 10 0 000-20zM11 16.93V7.07a8 8 0 010 9.86z"
-                ></path>
-              </svg>
+            <div class="mb-4 text-gray-600">
+              <i class="fas fa-chalkboard-teacher fa-3x"></i>
             </div>
-            <h3 class="text-xl font-bold mb-2">Career Consltant</h3>
+            <h3 class="text-xl font-bold mb-2">Career Consultant</h3>
             <p class="text-gray-600 mb-4">
-              We have a Team of experienced and knowledgeable professionals with
-              us, who have in depth knowledge..
+              We have a team of experienced and knowledgeable professionals with
+              us, who have in-depth knowledge..
             </p>
             <a
               href="#details"
               class="text-gray-600 hover:underline flex items-center"
               >See Details
-              <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M9 5l7 7-7 7"></path>
-              </svg>
+              <i class="fas fa-chevron-right ml-1"></i>
             </a>
           </div>
           <!-- Add more cards as needed -->
@@ -608,6 +545,6 @@
       </div>
     </footer>
 
-    <script></script>
+    <script src="script.js"></script>
   </body>
 </html>
